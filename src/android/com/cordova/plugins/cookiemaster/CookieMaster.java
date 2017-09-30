@@ -13,6 +13,8 @@ import java.net.HttpCookie;
 
 import android.webkit.CookieManager;
 
+import android.os.Build;
+
 public class CookieMaster extends CordovaPlugin {
 
     private final String TAG = "CookieMasterPlugin";
